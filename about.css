@@ -1,0 +1,121 @@
+.body{
+    background: url('backgroundsate.jpg');
+    
+    color: black;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.096);
+    width: 960px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+
+.header {
+    padding: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+.garisheader {
+    border: solid black 2px;
+}
+
+.isiheaders {
+    display: flex;
+    flex-direction: row;
+    padding: 1px 8px;
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 7px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.header a:hover {
+    background-color: rgba(255, 255, 255, 0.473);
+    color: rgb(151, 60, 0);
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.logososmed {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 30px;
+    float: right;
+}
+
+
+/*Menghilangkan efek float */
+.cf::before,
+.cf:after{
+    content: "";
+    display: table;
+}
+
+.cf:after{
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.footer {
+    backdrop-filter: blur(10px);
+    padding: 2px;
+    background-color: rgba(255, 255, 255, 0.096);
+    
+}
+
+.footer .copy {
+    color: rgb(146, 58, 0);
+    text-align: center;
+    font-size: 15px;
+}
+
+.sidebar a {
+    color: rgb(155, 62, 0); 
+    text-decoration: none;
+}
+
+.greatcontainer {
+    margin: auto;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.poto {
+    width: 500px;
+    height: 100px;
+}
+
+/*....................../*
+
+
+
+
+
+
