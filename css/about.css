@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .body{
     background: url('backgroundsate.jpg');
     
@@ -58,12 +62,16 @@
 .logososmed {
     width: 40px;
     height: 40px;
+    display: flex;
+    flex-direction: row;
 }
 
 .sidebar {
     width: 300px;
     padding: 30px;
-    float: right;
+    float: left;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -98,6 +106,8 @@
 .sidebar a {
     color: rgb(155, 62, 0); 
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
 }
 
 .greatcontainer {
