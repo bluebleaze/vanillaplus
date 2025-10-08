@@ -15,6 +15,11 @@
     padding: 10px;
 }
 
+.gambarmakanan {
+    display: flex;
+    flex-direction: row;
+}
+
 .header .judul {
     font-size: 40px;
     font-weight: bold;
