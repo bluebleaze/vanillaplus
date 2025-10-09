@@ -1,13 +1,17 @@
 * {
     font-family: 'Poppins';
-    text-align: center;
-    
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
-::-webkit-scrollbar {
-    width: 0;
-}
 
 .body{
     background: url('backgroundsate.jpg');
@@ -32,6 +36,7 @@
     padding: 10px;
     transition: 0.5s;
     animation: animasi 0.5s   iteration-count direction fill-mode;
+    border: 0.5px solid rgba(255, 137, 3, 0.116);
 }
 
 
@@ -99,6 +104,15 @@
     align-items: center;
 }
 
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
 .logodistro {
     display: flex;
     width: 50px;
@@ -117,6 +131,9 @@
     height: 80px;
 }
 
+#isimoto {
+    color: brown;
+}
 
 .header a {
     text-decoration: none;
@@ -124,11 +141,37 @@
     font-size: 20px;
     transition: 0.5s;
 }
+.header img {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    margin-top: 3.5px;
+    transition: 0.5s;
+}
 
 .header a:hover {
     background-color: rgba(255, 255, 255, 0.473);
     color: rgb(151, 60, 0);
-    font-size: 25px;
+    font-size: 35px;
+}
+
+#profil {
+    border: solid black 2px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+#profil:hover {
+    border-radius: 25%;
+    height: 250px;
+    width: 250px;
 }
 
 .main {
@@ -148,16 +191,20 @@
     justify-content: center;    
     align-items: center;
     margin: auto;
+    transition: 0.5s;
 }
 
 .sidebar img:hover {
     height: 80px;
     width: 80px;
-    backdrop-filter: blur(10);
+    .tulisansosmed{
+        opacity: 100%;
+    }
 }
 
 .sidebar:has(img:hover) :not(:hover) {
     filter: grayscale(100) blur(2px);
+    
 }
 
 .whatsapp {
@@ -169,6 +216,14 @@
 .whatsapp:hover {
     height: 110px;
     width: 110px;
+}
+
+.main:hover hr {
+    width: 400px;
+}
+
+.content:hover hr {
+    width: 400px;
 }
 
 .logooses {
@@ -205,7 +260,11 @@
     height: 50px;
     width: 50px;
     transition: 0.5s;
+    .tulisansosmed{
+        opacity: 0%;
+    }
 }
+
 
 .navbar > li > a {
     padding-right: 10px;
@@ -223,7 +282,7 @@
 }
 
 .cf {
-    *zoom: 1;
+    zoom: 1;
 }
 
 .footer {
@@ -255,11 +314,10 @@
 
 hr {
     background: 20px;
-    background-color: rgba(250, 0, 0, 0.774);
     width: 50px;
     transition: 0.5s;
     gap: 7;
-    color: rgb(218, 105, 0);
+    color: rgba(199, 109, 6, 0.89);
 }
 
 .header:hover hr {
