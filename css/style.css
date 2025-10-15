@@ -6,10 +6,19 @@
 
 p {
     text-align: justify;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h2 {
+    font-size: 25px;
 }
 
 .wa:hover {
-    width: 80px;
+    width: 81px;
     height: 80px;
 }
 
@@ -73,8 +82,19 @@ h1 {
     transition: 0.5s;
     flex-wrap: wrap;
     border: solid brown 0.5px;
-    border-radius: 50%;
+    border-radius: 25%;
     
+}
+
+.gambarmakanan > .gambartengah {
+    height: 250px;
+    width: 250px;
+}
+
+.gambarmakanan > .gambartengah:hover{
+    height: 300px;
+    width: 300px;
+
 }
 
 .gambarmakanan img:hover {
@@ -82,7 +102,11 @@ h1 {
     width: 250px;
     gap: 100;
     row-gap: 100;
-    border-radius: 15px;
+    border-radius: 23%;
+}
+
+.deskripsimakanan {
+    margin-top: 30px;
 }
 
 .sidebar:has(.logososmed:hover) :not(:hover) {
